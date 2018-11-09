@@ -452,13 +452,3 @@ $ docker run node-crawler sh -c "npm install && npm test"
 # You can also ssh into the container for easier debugging
 $ docker run -i -t node-crawler bash
 ```
-
-
-# Rough todolist
-
- * Introducing zombie to deal with page with complex ajax
- * Refactoring the code to be more maintainable
- * Make Sizzle tests pass (JSDOM bug? https://github.com/tmpvar/jsdom/issues#issue/81)
- * Promise support
- * Commander support
- * Middleware support
